@@ -4,5 +4,5 @@ Project: Adapting InstructGPT to korean dataset
 Purpose: 
 
 Dataset:
-- En:
+- En: IMDB 
 - Ko:
