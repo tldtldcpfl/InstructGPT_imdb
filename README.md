@@ -4,8 +4,5 @@ Project: Adapting InstructGPT to korean dataset
 Purpose: 
 
 Dataset:
-- En: IMDB Dataset({
-    features: ['text', 'label'],
-    num_rows: 25000
-})
+- En: dataset = load_dataset("CarperAI/openai_summarize_comparisons", split="train")
 - Ko:
