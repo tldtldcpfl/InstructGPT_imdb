@@ -17,4 +17,7 @@ Purpose:
 
 - Ko:
 
-출처: https://huggingface.co/datasets/CarperAI/openai_summarize_comparisons
+
+References
+https://huggingface.co/datasets/CarperAI/openai_summarize_comparisons
+https://github.com/xrsrke/instructGOOSE/blob/main/nbs/03_tutorial_train_reward_model.ipynb
