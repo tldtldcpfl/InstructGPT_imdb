@@ -1,5 +1,5 @@
 # InstructGPT
-Project: Training InstructGPT to korean dataset
+Project: Adapting InstructGPT to korean dataset
 
 Purpose: 
 
