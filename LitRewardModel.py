@@ -6,7 +6,7 @@ class LightRewardModel(nn.Module):
         self.loss_func = loss_func
         self.lr = lr
         
-    def training_step(self, batch):
+    def training_step(self, batch, batch_idx):
         chosen_input_ids, chosen_attention_mask, \
         rejected_input_ids, rejected_attention_mask = batch
         
