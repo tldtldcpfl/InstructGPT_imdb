@@ -1,23 +1,11 @@
 # InstructGPT
-
-
+- To reduce hallucination of Large Language Models, InstructGPT (Ouyang et al.,2022) propose a method to make aligning language model to act in accordance with the user's intention by using reinforcement learning. 
 
 ## **Dataset**
 
-- comparison dataset은 chosen, rejected, prompt 3가지 features로 구성되있으며 92.5k (약 92,500개의 예제)/ 83.6k train/test로 나누어져있다.
-- 커뮤니티 사이트 Reddit post와 각 post에 대한 2개의 summary로 구성되있다. Human labeler는 2개의 summary 중 더 선호하는 쪽을 선택해서 'chosen'으로, 나머지 하나를 'rejected'로 라벨링한다.  
+- Dataset consists of two parts: comparison datset and imdb.
 
 
-- dataset_path(1): "CarperAI/openai_summarize_comparisons"
-  #Dataset({
-    features: ['prompt', 'chosen', 'rejected'],
-    num_rows: 92534
-})
-- datset(2): dataset = load_dataset("imdb", split="train")
-  
-- dataset(3): ko 
-
-
-References
+Resources
 https://huggingface.co/datasets/CarperAI/openai_summarize_comparisons
 https://github.com/xrsrke/instructGOOSE/blob/main/nbs/03_tutorial_train_reward_model.ipynb
