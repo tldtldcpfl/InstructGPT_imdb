@@ -1,5 +1,5 @@
 # InstructGPT
-Project: Adapting InstructGPT to korean dataset
+
 
 
 ## **Dataset**
